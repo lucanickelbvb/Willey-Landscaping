@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Willey Landscaping LLC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo"><img src="logo.png" alt="Willey Landscaping LLC" /></a>      
+        <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#gallery" class="mobile-link">Gallery</a>
+      <a href="#contact" class="mobile-link">Get a Quote</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Rochester Hills, Michigan</p>
+      <h1 class="hero-title">Your Lawn,<br /><em>Perfected.</em></h1>
+      <p class="hero-sub">Professional lawn care you can count on — mowing, edging, and leaf removal done right every time.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        <a href="#services" class="btn btn-ghost">Our Services</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span>Serving</span>
+      <strong>Rochester Hills</strong>
+      <span>& surrounding areas</span>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">What We Do</p>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-desc">We keep it simple — and we do it well.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 36h36M10 36V22l14-10 14 10v14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18 36v-8h12v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8 20c0 0 4-8 16-8s16 8 16 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Lawn Mowing</h3>
+          <p>Regular mowing keeps your yard looking neat and healthy. We show up on schedule and leave your lawn looking its best.</p>
+        </div>
+        <div class="service-card featured">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 36L36 12M20 12l8 8-16 16H8v-4l12-12z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M32 8l8 8-4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Edging</h3>
+          <p>Clean, crisp edges along driveways, walkways, and garden beds make your property stand out from the rest of the block.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 38s4-10 16-10 16 10 16 10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M16 28c0-4 2-12 8-16M32 28c0-4-2-12-8-16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M12 20c2-2 6-4 12-4M36 20c-2-2-6-4-12-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Leaf Removal</h3>
+          <p>When fall rolls around, we've got you covered. We clear your yard of leaves quickly so your lawn stays protected heading into winter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-image">
+        <img src="owner.jpg" alt="Owner of Willey Landscaping" />
+      </div>
+      <div class="about-text">
+        <p class="section-label">About Us</p>
+        <h2 class="section-title">Willey Landscaping LLC</h2>
+        <p>Willey Landscaping is a local lawn care company proudly serving Rochester Hills, Michigan. Founded by Alec Willey at just 15 years old, the company was built on a simple belief: your yard deserves the same level of care and attention as every other part of your home. With a strong focus on quality, reliability, and detail, Willey Landscaping is committed to helping homeowners maintain clean, healthy, and well-kept outdoor spaces they can take pride in.</p>
+        <p>Whether it's a weekly mow or a full fall cleanup, we treat every property like it's our own. No shortcuts, no excuses — just honest work and a yard you'll be proud of.</p>
+        <a href="#contact" class="btn btn-primary">Work With Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Our Work</p>
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-desc">A few examples of what we deliver.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall">
+          <img src="photo1.HEIC" alt="Lawn care by Willey Landscaping" />        
+        </div>
+        <div class="gallery-item">
+          <img src="photo2.HEIC" alt="Lawn care by Willey Landscaping" />        
+        </div>
+        <div class="gallery-item">
+          <img src="photo3.HEIC" alt="Lawn care by Willey Landscaping" />        
+        </div>
+        <div class="gallery-item wide">
+          <img src="photo4.HEIC" alt="Lawn care by Willey Landscaping" />        
+        </div>
+        <div class="gallery-item">
+          <img src="photo5.HEIC" alt="Lawn care by Willey Landscaping" />        
+        </div>
+        <div class="gallery-item">
+          <img src="photo6.HEIC" alt="Lawn care by Willey Landscaping" />        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Request a Quote</h2>
+        <p>Ready for a lawn you love? Reach out and we'll get back to you as soon as possible.</p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <a href="tel:2484959612">(248) 495-9612</a>
+          </div>
+          <div class="contact-detail">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+            <span>Rochester Hills, Michigan</span>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" action="https://formspree.io/f/mbdbvbok" method="POST">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="John Smith" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="(248) 000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="john@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="service">Service Needed</label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="mowing">Lawn Mowing</option>
+            <option value="edging">Edging</option>
+            <option value="leaf-removal">Leaf Removal</option>
+            <option value="multiple">Multiple Services</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Additional Details</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us a little about your yard or any questions you have..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Send My Request</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">Willey Landscaping <span>LLC</span></p>
+      <p class="footer-copy">© 2025 Willey Landscaping LLC · Rochester Hills, MI · <a href="tel:2484959612">(248) 495-9612</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+        // close mobile menu
+        document.getElementById('mobileMenu').classList.remove('open');
+      });
+    });
+
+    // Sticky nav
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Hamburger
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
